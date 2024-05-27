@@ -63,7 +63,7 @@ function page() {
           made by and for acne prone girlies </p>
         <br /> */}
         <p className="mt-2 text-ll text-black">
-          - You'll not ever again afraid of acne. 💆 </p>
+          - You&apos;ll not ever again afraid of acne. 💆 </p>
 
         {/* <a
           href="#"
@@ -110,7 +110,7 @@ function page() {
         </div>
 
         <div className="mt-6 px-4 sm:hidden">
-          <a href="#" className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
+          <a href="/products" className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
             Browse all categories
             <span aria-hidden="true"> &rarr;</span>
           </a>

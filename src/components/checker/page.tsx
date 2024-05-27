@@ -1,10 +1,9 @@
 "use client"
-import React, { use } from 'react'
+import React from 'react'
 import { useForm } from 'react-hook-form'
 import {
     Form,
     FormControl,
-    FormDescription,
     FormField,
     FormItem,
     FormLabel,
@@ -14,18 +13,9 @@ import { Input } from "@/components/ui/input"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useState } from "react"
 import { z } from "zod"
-import { Button } from "@/components/ui/button"
-import Link from 'next/link'
-import {
-    Bars3Icon,
-    ChartPieIcon,
-    CursorArrowRaysIcon,
-    FingerPrintIcon,
-    SquaresPlusIcon,
-    XMarkIcon,
-} from '@heroicons/react/24/outline'
 
-function page() {
+
+function Checker() {
     const [submittedData, setSubmittedData] = useState<z.infer<typeof formSchema> | null>(null);
     let count = 0
     const formSchema = z.object({
@@ -293,4 +283,4 @@ function page() {
     )
 }
 
-export default page
+export default Checker

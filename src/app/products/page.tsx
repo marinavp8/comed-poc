@@ -8,7 +8,7 @@ import { getAllProducts } from "@/lib/productSeed"
 import Product from "@/components/product2/page"
 
 
-function page() {
+function Products() {
     const [products, setProducts] = useState<any[]>([]);
     const [loading, setLoading] = useState(false);
 
@@ -55,4 +55,4 @@ function page() {
     )
 }
 
-export default page
+export default Products
