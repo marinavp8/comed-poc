@@ -1,8 +1,4 @@
 "use client"
-import { Button } from '@/components/ui/button'
-import React from 'react'
-import Link from 'next/link'
-import type { NextPage } from 'next';
 import { useEffect, useState } from "react"
 import { getAllProducts } from "@/lib/productSeed"
 import Product from "@/components/product2/page"
