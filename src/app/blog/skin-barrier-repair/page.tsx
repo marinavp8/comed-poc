@@ -38,6 +38,7 @@ function MainComponent() {
         <div>
             <Article
                 title="Damaged Skin Barrier - How to Identify It and the Best Solution"
+                intro2="Is Your Skincare Routine Overloading Your Skin? Discover Why Less is More!"
                 intro="
                 Have you ever looked in the mirror and noticed your skin looking red and rough, or perhaps strangely shiny? Maybe the texture seemed off, or your pores appeared larger than usual. Or have breakouts become more frequent or more inflamed?
 
@@ -46,12 +47,38 @@ You might be tempted to layer on more skincare products to combat these symptoms
                 introImageUrl="https://res.cloudinary.com/dly6v8ee5/image/upload/v1716817395/barrier_twiu7s.webp"
                 sections={[
                     {
-                        content: "The first step in addressing skin barrier damage is to recognize the signs and understand the underlying causes.",
+                        "content": "The path to recovery for overloaded skin is straightforward and involves some key steps.",
+                        "points": [
+                            {
+                                "title": "Pause Active Ingredients",
+                                "description": "Stop using products with active ingredients like Vitamin C, retinoids, and exfoliants to give your skin a break."
+                            },
+                            {
+                                "title": "Switch to Gentle, Restorative Products",
+                                "description": "Use products containing soothing ingredients like ceramides, panthenol, and centella asiatica to accelerate skin healing."
+                            },
+                            {
+                                "title": "Choose Acne-Prone Skin Friendly Products",
+                                "description": "Opt for products that won't clog pores or increase oiliness. Our curated selection is designed to aid skin regeneration without causing breakouts."
+                            },
+                            {
+                                "title": "Gradual Reintroduction of Actives",
+                                "description": "Once your skin has fully recovered, slowly reintroduce mild active ingredients at lower frequencies and concentrations."
+                            }
+                        ]
+                    }
+                ]}
+
+                sections2={[
+                    {
+                        content: "Our top picks",
                         points: [
-                            { title: "Unusual Shine", description: "A strange, glossy appearance can often be a sign of excessive oil production. This might be a reaction to dehydration or irritation, where your skin is trying to compensate for a lack of moisture by producing more oil." },
-                            { title: "Textured Skin & Enlarged Pores  ", description: " Textured skin can manifest as bumps, rough patches, or general unevenness. This is often due to clogged pores, dead skin cells, and potential reactions to overly harsh skincare products." },
-                            { title: "Increased or More Inflamed Acne ", description: "When the skin barrier is damaged, bacteria can more easily penetrate, and the skin becomes more susceptible to acne and inflammation. Additionally, an impaired barrier can lead to increased skin sensitivity and irritation from products that might not have previously caused issues." },
-                            { title: "Red and Rough Skin ", description: "This symptom typically indicates inflammation and irritation. It occurs when your skin's protective barrier is compromised, making it more vulnerable to environmental aggressors, allergens, and irritants." },
+                            { title: "Avene", description: "Lorem ipsum dolor sit amet consectetur." },
+                            { title: "La Roche Possay", description: " Lorem ipsum dolor sit amet consectetur." },
+                            {
+                                title: "Phanton ", description: "Lorem ipsum dolor sit amet consectetur."
+                            },
+                            { title: "Benton ", description: "Lorem ipsum dolor sit amet consectetur." },
                             // { title: "Products That Previously Worked Now Cause Discomfort  ", description: "This occurs when skin sensitivity or allergic reactions develop due to a weakened skin barrier. If products you used comfortably before now cause stinging, burning, or redness, it’s often because your skin's natural defenses are compromised. It's important to recognize that if a product only starts causing reactions after initial successful use, it's likely not the product itself but an indication that your skin barrier is in distress." }
                         ]
                     }

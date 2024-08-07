@@ -4,7 +4,7 @@ const posts = [
     {
         id: 1,
         title: 'Damaged Skin Barrier - How to Identify It and the Best Solution',
-        href: '/blog/1',
+        href: '/blog/skin-barrier-repair',
         description:
             'You might be tempted to layer on more skincare products to combat these symptoms, but the solution could actually lie at the root of the problem: you are overloading your skin with too many active ingredients.',
         imageUrl:
