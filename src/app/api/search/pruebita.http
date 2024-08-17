@@ -1,0 +1,10 @@
+POST https://lookfantastic-scraper.onrender.com/search
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Type: application/json
+
+{"product_name": "yves-saint-laurent-libre-eau-de-parfum-90ml"}
+
+
+
+
+

@@ -1,5 +1,6 @@
 import React from 'react'
 import Checker from '@/components/checker/page'
+import Searcher from '@/components/searcher/page'
 
 function Check() {
     return (
@@ -12,7 +13,8 @@ function Check() {
                         </h2>
                         <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-600">
                             We Validate, You Radiate 💅                      </p>
-                        <Checker />
+                        {/* <Checker /> */}
+                        <Searcher />
 
                     </div>
                 </div>

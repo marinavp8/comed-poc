@@ -1,6 +1,6 @@
 import React from 'react'
-import Checker from '@/components/checker/page'
 import Image from 'next/image';
+import Searcher from '@/components/searcher/page';
 
 const categories = [
   {
@@ -71,7 +71,7 @@ function page() {
         >
           Check your product
         </a> */}
-        <Checker />
+        <Searcher />
       </div>
       <section aria-labelledby="category-heading" className="pt-24 sm:pt-32 xl:mx-auto xl:max-w-7xl xl:px-8">
         <div className="px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 xl:px-0">
