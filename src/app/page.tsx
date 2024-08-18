@@ -55,7 +55,7 @@ function page() {
       <div className="relative mx-auto flex max-w-3xl flex-col items-center px-6 py-3.5 text-center sm:py-20 lg:px-0">
         <h1 className="text-3xl font-bold tracking-tight text-black lg:text-3xl">Wondering if a product will breakout you?</h1>
         <p className="mt-6 text-lg text-black">
-          Check if a product would do it. </p>
+          Enter the product name and check if it would do it. </p>
 
         <br />
 

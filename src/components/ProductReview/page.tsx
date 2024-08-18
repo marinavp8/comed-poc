@@ -33,8 +33,10 @@ const ProductReview: React.FC<ProductReviewProps> = ({
 
             <div className="mb-6">
                 <Image
-                    src={imageSrc}
-                    alt={imageAlt}
+                    src="/public/images/products/lrp-cleanser.jpeg"
+                    // src={imageSrc}
+                    alt="holaa"
+                    // alt={imageAlt}
                     width={300}
                     height={300}
                     className="h-auto"

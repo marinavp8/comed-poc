@@ -250,7 +250,7 @@ const Searcher = () => {
     return (
         <>
             <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="mx-auto mt-10 flex flex-col sm:flex-row max-w-md gap-x-4">
+                <form onSubmit={form.handleSubmit(onSubmit)} className="mx-auto mb-10 mt-10 flex flex-col sm:flex-row max-w-md gap-x-4">
                     <FormField
                         control={form.control}
                         name="productName"
@@ -260,7 +260,7 @@ const Searcher = () => {
                                 <FormControl>
                                     <Input
                                         id="productName"
-                                        placeholder="Enter product name"
+                                        placeholder="Ex: Drunk Elephant Bouncy Brightfacial"
                                         {...field}
                                         className="min-w-0 w-full sm:w-96 rounded-md border-0 bg-white px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
                                     />
@@ -281,7 +281,7 @@ const Searcher = () => {
 
             {error && <p className="text-red-500 mt-4">{error}</p>}
 
-            {result && (
+            {/* {result && (
                 <div className="mt-8">
                     <div className="mt-6 ml-10 text-sm font-medium text-gray-900">
                         {count} ingredient{count !== 1 ? 's' : ''} found,{' '}
@@ -301,7 +301,37 @@ const Searcher = () => {
                         </div>
                     </div>
                 </div>
-            )}
+            )} */}
+
+            {
+                result && (
+                    <div className="mt-10 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+                        <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+                            <div className="mx-auto max-w-xs px-8">
+                                {count} clogging ingredient{count !== 1 ? 's' : ''} found,{' '}
+                                {count >= 1 ? (
+                                    <p className=" text-base font-semibold text-red-600"> not good for your skin babe.</p>
+                                ) : count === 0 ? (
+                                    <p className="text-base font-semiboldtext-green-600">is good for your skin babe.</p>
+                                ) : null}
+
+                                <p className="mt-6 text-xs leading-5 text-gray-600">
+                                    Ingredients: {highlightedIngredients}
+                                </p>
+                                <a
+                                    href="{result.product_url}"
+                                    className="mt-10 block w-full rounded-md bg-black px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    Buy
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                )
+            }
+
+
         </>
     );
 };
