@@ -32,8 +32,7 @@ const ProductReview: React.FC<ProductReviewProps> = ({
             <h2 className="text-l font-semibold mb-6 border-b pb-2">{productName}</h2>
             <div className="mb-6 flex flex-col items-center">
                 <Image
-                    src="/images/products/caudalie-serum.jpg"
-                    // src={imageSrc}
+                    src={imageSrc}
                     alt="holaa"
                     // alt={imageAlt}
                     width={300}
@@ -50,7 +49,7 @@ const ProductReview: React.FC<ProductReviewProps> = ({
                     rel="noopener noreferrer"
                     className="block w-full bg-black text-white text-sm text-center py-3 rounded hover:bg-gray-800 transition duration-300"
                 >
-                    ${price} AT {store}
+                    {price}€ AT {store}
                 </Link>
             </div>
 

@@ -91,13 +91,13 @@ function Article({ title, intro, intro2, introImageUrl, sections, sections2, quo
                         <div id="reviews">
                             <ProductReview
                                 category="Reviews"
-                                productName="Aerie Real Sunnie Strapless Bra"
-                                imageSrc="/path-to-your-image.jpg"
+                                productName="Ceramide Cream 10000ppm"
+                                imageSrc="https://res.cloudinary.com/dly6v8ee5/image/upload/v1724047493/ec20fca16f9321e7c9efa8ddbbe28756_cjr732xm_b1a89fd4_qm5tfc.webp"
                                 imageAlt="Aerie Real Sunnie Strapless Bra"
-                                photoCredit="AERIE"
-                                buyLink="https://ae.com"
-                                price={38}
-                                store="AE.COM"
+                                photoCredit="MIIN COSMETICS"
+                                buyLink="https://miin-cosmetics.com/940-ceramide-cream-10000ppm.html?utm_source=awin&utm_medium=369493&utm_campaign=&awc=22802_1724047630_e979f61b22aa7035ab1320ba4a77c4fc"
+                                price={30}
+                                store="MIIN-COSMETICS.COM"
                                 likes={[
                                     "Contains 10,000ppm of ceramides, which help strengthen the skin barrier and improve hydration",
                                     "Suitable for all skin types, including sensitive and acne-prone skin",
