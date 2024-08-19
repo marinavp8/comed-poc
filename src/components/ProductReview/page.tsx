@@ -30,10 +30,9 @@ const ProductReview: React.FC<ProductReviewProps> = ({
         <div>
             <h1 className="text-xl font-semibold mt-10 mb-4">{category}</h1>
             <h2 className="text-l font-semibold mb-6 border-b pb-2">{productName}</h2>
-
-            <div className="mb-6">
+            <div className="mb-6 flex flex-col items-center">
                 <Image
-                    src="/public/images/products/lrp-cleanser.jpeg"
+                    src="/images/products/caudalie-serum.jpg"
                     // src={imageSrc}
                     alt="holaa"
                     // alt={imageAlt}
