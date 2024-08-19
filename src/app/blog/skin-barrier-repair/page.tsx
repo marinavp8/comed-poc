@@ -89,6 +89,7 @@ You might be tempted to layer on more skincare products to combat these symptoms
                 authorImage="/images/person/marina.jpeg"
                 conclusion="The path to recovery is quite straightforward: it’s essential to pause using all active ingredients like Vitamin C, retinoids, and exfoliants. Don't be afraid to step back from your usual treatments and switch to gentle, restorative products that help accelerate healing. Look for ingredients like ceramides, panthenol, and centella asiatica. Finding such products for acne-prone skin can be challenging, which is why we have curated a selection guaranteed not to clog pores or increase oiliness while assisting in skin regeneration. Lastly, once your skin is fully recovered, you can gradually reintroduce mild actives at lower frequencies and concentrations."
                 conclusionImageUrl="https://res.cloudinary.com/dly6v8ee5/image/upload/v1716817395/damage_pk02bu.webp"
+                editDate="2024-08-19"
             />
             <Recomendations products={products} />
         </div>

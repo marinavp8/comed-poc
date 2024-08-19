@@ -4,12 +4,13 @@ import Link from 'next/link'
 import ProductReview from '@/components/ProductReview/page';
 import Image from 'next/image'
 
-function Article({ title, intro, intro2, introImageUrl, sections, sections2, quote, author, authorTitle, authorImage, conclusion, conclusionImageUrl }: any) {
+function Article({ title, intro, intro2, introImageUrl, sections, sections2, quote, author, authorTitle, authorImage, conclusion, conclusionImageUrl, editDate }: any) {
     return (
         <div className="bg-white px-6 py-10 lg:px-8">
             <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
                 <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p>
                 <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{title}</h2>
+                <p className="mt-2 text-sm text-gray-500">Last updated: {editDate}</p>
                 <p className="mt-6 text-l leading-8">{intro2}</p>
                 <img
                     className="h-100 w-300 mt-6 w-full object-cover object-center rounded-lg shadow-md"
